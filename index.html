@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+<style type="text/css">
+input{margin:2px;width:170px}
+body{background-color:midnightBlue}
+h5,label{color:white;text-decoration:underline}
+p{margin:2px;border:solid 1px black; width:130px}
+button,.battery{margin:2px;background-color:lightgreen}
+.Oil{background-color:darkOrange}
+.day,.light{background-color:yellow}
+.wheel,.tyre,.tyreUsure{background-color:lightgray}
+.water,.weather{background-color:skyBlue}
+.price{background-color:gold}
+.fan{background-color:silver}
+hr,#test,#test1,#time{color:white}
+#Eng{background-color:red}
+#disque{background-color:darkOrange}
+th{background-color:green}
+table{border:black solid 2px;font-size:13px;text-align:center;background-color:lightgreen}
+.container2{width:370px;border: solid 2px;margin: 5px;background-color:darkred}
+.container1{display:grid;grid-template:50px/1fr 1fr 1fr}
+.container{color:thikgrey;width:420px;border: solid 2px;background-color:white;grid-template:50px/1fr 1fr 1fr;text-align:center;display:grid}
+</style>
+<title>🚘 Car Checkup Driving</title>
+</head>
+<body>
+<table >
+<thead>
+<h5>
+#️⃣ Needed Values
+</h5>
+<tr>
+<th>Item</th>
+<th>Normal value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Radiator water level</td>
+<td>10mm</td>
+</tr>
+<tr>
+<td>Wheel Air Pressure</td>
+<td>2Pa +/- 0.2</td>
+</tr>
+<tr>
+<td>wheelUsure</td>
+<td>5mm</td>
+</tr>
+<tr>
+<td>wiperUsure</td>
+<td>5mm</td>
+</tr>
+<tr>
+<td id="disque">Disques Plates</td>
+<td id="disque">5mm</td>
+</tr>
+<tr>
+<td>EngineOil Level</td>
+<td>1dm</td>
+</tr>
+<tr>
+<td>Tank Level</td>
+<td>10L</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h5>⚙️ Car Parameters</h5>
+<fieldset>
+<label>Datas</label>
+<form name="f1">
+<div class="container2">
+<input id="rad" type="text" name="" placeholder="🌡 Radiator Temperature (°C)">
+<input type="text" name="" placeholder="🌡 Outside Temperature (°C)">
+<input type="text" name="" placeholder="⛽️ Oil Jauge (L)">
+<input class="wheel" type="text" name="" placeholder="Air Pressure (Pa)">
+<input class="tyre" type="text" name="" placeholder="🛞 Tyre usure (mm)">
+<input type="text" name="" placeholder="Air Break_Oil jauge">
+<input type="text name="c" id="time" placeholder="⏱️ Travel Time (H)">
+<input type="text" name="" placeholder="Wiper usure (mm)">
+<input type="text" name="" placeholder="🚘 Car weight (t)">
+<input class="price" type="text" name="" placeholder="💲 Oil price/L">
+<input type="text" name="b" value="" placeholder="🛣 Distance to travel (Km)">
+<input type="text" name="a"  value="" placeholder="🚗 AVR Speed (Km/h)">
+<input type="text" name="" placeholder="🐎 Engine Horse Power (ch)">
+<input type="text" name="" placeholder="⚡️ Recharge station">
+<input type="text" name="" value="" placeholder="↔️ Between Distance to keep">
+<input type="button" onclick="Temps.calculTime() "value="Calculate Time" >
+</div>
+</form>
+</fieldset>
+<h5>📟 Devices Settings</h5>
+<div class="container1">
+<button id="Eng" onclick="KeySetup.setupKey()">1️⃣ 🔑 Start_Engine_Key_On</button>
+<button >2️⃣ ❄️ Air_Condition_On</button>
+<button>3️⃣ ➿️ Heater_On</button>
+<button onclick="On_Charging.addCharge(1,100)">4️⃣ 🔌 Battery_Charger_On</button>
+<button>5️⃣ 🧭 GPS_On</button>
+<button>6️⃣ 🚀Turbo_On</button>
+<button Onclick="Temps.calculTime(100,200)">7️⃣ ⏱️️ Time to reach</button>
+</div>
+<hr>
+<h5>❓️️ Devices Status</h5>
+<div class="container">
+<button id="but" class="day">☀️ Day_Driving"</button>
+<p id="bat" class="battery">⚡️ Battery_Charged</p>
+<p class="water">💧 Radiator_Water</p>
+<p class="fan">Radiator_Fan_On</p>
+<p class="tyreUsure">🛞 Tyre_Usure</p>
+<p id="prompt">Day</p>
+<p class="Oil">Engine_Oil_Is_Full</p>
+<p class="light">💡 Light_Working</p>
+<p class="weather">🌧 Weather_Rainy</p>
+<p class="speed">🚙 Speed (Km/h)</p>
+<p class="acceleration">Acceleration (m/s^2)</p>
+<p class="gear">🕹 Gear type</p>
+<p class="steering">Power steering</p>
+<p class="diesel">Diesel</p>
+<p class="hybrid">🧬 Hybrid engine</p>
+<p class="motor">Motor round (tour/min)</p>
+<p class="ABS">ABS Break System</p>
+</div><br>>
+-->
+<div id="test">
+Hello
+</div>
+<div id="test1">
+</div>
+<div id="time">
+Hello1</div>
+<script src="/storage/emulated/0/Brouillonpractice1.js" type="text/javascript">
+</script>
+<style>
+</body>
+</html>
